@@ -1,0 +1,6 @@
+{
+  "name": "Michael Viveros",
+  "tagline": "Personal website",
+  "body": "### Blog\r\n[Blog 1 - April 2016](http://michaelviveros.com/blog1/)\r\n\r\n### BirdieStats\r\n![Screenshot](http://michaelviveros.com/images/Architecture.jpg)\r\n\r\nBirdieStats is an application used by golfers to track their stats. It consists of a website, server, database and mobile app using VueJS, NodeJS, PostgreSQL and Cordova, respectively.\r\n\r\n[Website](http://www.birdiestats.com), [App](https://play.google.com/store?hl=en), [Code](https://github.com/MichaelViveros)\r\n\r\n![Architecture](http://michaelviveros.com/images/Architecture.jpg)",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
