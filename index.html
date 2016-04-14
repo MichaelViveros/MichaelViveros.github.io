@@ -16,7 +16,18 @@
     </section>
 
     <section class="main-content">
-      <h3>
+      <div class="highlight highlight-source-scheme"><pre>(while (<span class="pl-k">&lt;</span> i num-rows)
+  (<span class="pl-k">set!</span> y (<span class="pl-k">*</span> i pic-height))
+  (<span class="pl-k">set!</span> j <span class="pl-c1">0</span>)
+  (while (<span class="pl-k">&lt;</span> j num-cols)
+    <span class="pl-c">; get random pic and update filelist</span>
+    (<span class="pl-k">set!</span> x (<span class="pl-k">*</span> j pic-width))
+    (<span class="pl-k">set!</span> retvals (get-random-pic filelist num-pics-available <span class="pl-c1">0</span> <span class="pl-c1">#f</span> image))
+    (<span class="pl-k">set!</span> num-pics-available (<span class="pl-k">-</span> num-pics-available <span class="pl-c1">1</span>))
+    (<span class="pl-k">set!</span> pic (<span class="pl-c1">car</span> retvals))
+    (<span class="pl-k">set!</span> filelist (<span class="pl-c1">cadr</span> retvals))</pre></div>
+
+<h3>
 <a id="blog" class="anchor" href="#blog" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Blog</h3>
 
 <p><a href="http://michaelviveros.com/blog1/">Blog 1 - April 2016</a></p>
