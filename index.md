@@ -11,8 +11,8 @@ BirdieStats is an application used by golfers to track their stats. Users can in
 [Website](http://www.birdiestats.com), [App](https://play.google.com/store?hl=en), [Code](https://github.com/MichaelViveros)
 
 <p align="center"> 
-	<img src="../images/Screenshot3.JPG" hspace="50" style="vertical-align: middle;">
-	<img src="../images/BirdieStats_Architecture_2.png" hspace="50" style="vertical-align: middle;">
+  <img src="../images/Screenshot.jpg" hspace="50" style="vertical-align: middle;">
+  <img src="../images/BirdieStats_Architecture.png" hspace="50" style="vertical-align: middle;">
 </p>
 
 ## CollageCreator
@@ -48,8 +48,8 @@ I have been playing the trumpet for over 8 years. As a member of the McMaster Ma
 
 <br>
 <p align="center">
-	<iframe src="http://www.youtube.com/embed/kTiLrF7Tfoc" width="420" height="355"></iframe>
-	<img src="../images/MMB.jpg" alt="Collage" width="470" height="355" hspace="50"></img>
+  <iframe src="http://www.youtube.com/embed/kTiLrF7Tfoc" width="420" height="355"></iframe>
+  <img src="../images/MMB.jpg" alt="Collage" width="470" height="355" hspace="50"></img>
 </p>
 <br>
 
