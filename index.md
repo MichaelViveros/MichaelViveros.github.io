@@ -39,7 +39,7 @@ CollageCreator is a plugin for GIMP which automatically generates collages, give
   ...
 </pre>
 </td>
-<td><img src="../images/DREAMS_2x2_2.jpg" ></td>
+<td><img src="../images/DREAMS_2x2_2.jpg" width="420" height="300"></td>
 </tr>
 </table>
 
@@ -65,4 +65,4 @@ I teach programming to a class of 20 middle-school kids as part of the [Hamilton
 Also, I participated in 3 humanitarian trips to the Dominican Republic through D.R.E.A.M.S - Dominican Republic Education and Medical Support. I got to experience life in a 3rd World country and really enjoyed talking and laughing with the local Dominicanos.
 
 <br>
-<p align="center"> <img src="../images/DREAMS_3x3_1.jpg" width="800" height="533"></p>
+<p align="center"> <img src="../images/DREAMS_3x3_1.jpg" width="800" height="533"></p>  
