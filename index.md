@@ -44,7 +44,7 @@ CollageCreator is a plugin for GIMP which automatically generates collages, give
 </tr>
 </table>
 
-##Music
+## Music
 I have been playing the trumpet for over 8 years. As a member of the McMaster Marching Band, I played in many parades including the Toronto Santa Clause Parade and the Montreal St. Patrick's Day Parade.
 
 <br>
@@ -54,15 +54,16 @@ I have been playing the trumpet for over 8 years. As a member of the McMaster Ma
 </p>
 <br>
 
-##Volunteer
-###Hamilton Code Club
+## Volunteer
+
+### Hamilton Code Club
 I teach programming to a class of 20 middle-school kids as part of the [Hamilton Code Club](http://www.hamiltoncodeclub.com/). The language they learn is Scratch, a free visual programming language.
 
+<br>
 <p align="center"> <img src="../images/Scratch.png" width="700" height="400"></p>
-
 <br>
 
-###D.R.E.A.M.S
+### D.R.E.A.M.S
 Also, I participated in 3 humanitarian trips to the Dominican Republic through D.R.E.A.M.S - Dominican Republic Education and Medical Support. I got to experience life in a 3rd World country and really enjoyed talking and laughing with the local Dominicanos.
 
 <br>
