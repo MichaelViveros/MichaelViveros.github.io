@@ -30,7 +30,8 @@ CollageCreator is a plugin for GIMP which automatically generates collages, give
 (while (< j num-cols)
   ; get random pic and update pics-list
   (set! x (* j pic-width))
-  (set! retvals (get-random-pic pics-list num-pics-left))
+  (set! retvals
+    (get-random-pic pics-list num-pics-left))
   (set! num-pics-left (- num-pics-left 1))
   (set! pic (car retvals))
   (set! pics-list (cadr retvals))
@@ -39,7 +40,7 @@ CollageCreator is a plugin for GIMP which automatically generates collages, give
   ...
 </pre>
 </td>
-<td><img src="../images/DREAMS_2x2_2.jpg" width="420" height="300"></td>
+<td><img src="../images/DREAMS_2x2_2.jpg" width="450" height="310"></td>
 </tr>
 </table>
 
