@@ -3,6 +3,10 @@ layout: default
 title:  {{ site.name }}
 ---
 
+## Intro
+Hi, I'm Michael Viveros. I am a passionate programmer, incredibly inconsistent golfer and sarcastically subtle joker.
+
+<p align="center"> <img src="../images/Me.jpg" width="450" height="450"></p>
 <br>
 
 ## BirdieStats
