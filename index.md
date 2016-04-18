@@ -9,7 +9,9 @@ Hi, I'm Michael Viveros. I am a passionate programmer, incredibly inconsistent g
 <p align="center"> <img src="../images/Me.jpg" width="450" height="450"></p>
 <br>
 
-## BirdieStats
+## Projects
+
+### BirdieStats
 BirdieStats is an application used by golfers to track their stats. Users can input scores from a round, view stats like Handicap or Avg. Score on all Par 3s and compare stats with their friends.
 
 [Website](http://www.birdiestats.com), [App](https://play.google.com/store?hl=en), [Code](https://github.com/MichaelViveros)
@@ -19,7 +21,7 @@ BirdieStats is an application used by golfers to track their stats. Users can in
   <img src="../images/BirdieStats_Architecture.png" hspace="50" style="vertical-align: middle;">
 </p>
 
-## CollageCreator
+### CollageCreator
 CollageCreator is a plugin for GIMP which automatically generates collages, given a folder of pictures. It was written in the functional programming language Scheme. GIMP is a GNU Image Manipulation Program, essentialy an open-source version of PhotoShop. 
 
 [Code](https://github.com/MichaelViveros/CollageCreator)
