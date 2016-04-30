@@ -65,8 +65,7 @@ I have been playing the trumpet for over 8 years. As a member of the McMaster Ma
 ### Hamilton Code Club
 I teach programming to a class of 20 middle-school kids as part of the [Hamilton Code Club](http://www.hamiltoncodeclub.com/). The language they learn is Scratch, a free visual programming language.
 
-<br>
-<p align="center"> <img src="../images/Scratch.png" width="700" height="400"></p>
+<p align="center"> <img src="../images/HamiltonCodeClub.jpg"></p>
 <br>
 
 ### D.R.E.A.M.S
