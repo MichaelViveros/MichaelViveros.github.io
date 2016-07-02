@@ -12,12 +12,13 @@ Hi, I'm Michael Viveros. I am a passionate programmer, incredibly inconsistent g
 ## Projects
 
 ### BirdieStats
-BirdieStats is an application used by golfers to track their stats. Users can input scores from a round and view all their scores. Upcoming features include mobile app and stats like Handicap, Avg. Score on Par 3s, ...
+BirdieStats is an application used by golfers to track their stats. Users can input scores from a round on their phone and view all their scores on the website. Upcoming features include tracking stats like Handicap or Avg. Score on Par 3s.
 
-[Website](http://www.birdiestats.com), [Code](https://github.com/MichaelViveros/BirdieStats), [Doc](https://github.com/MichaelViveros/BirdieStats/tree/master/doc)
+----|----|----|----|
+[Website](http://www.birdiestats.com) | [Android App](https://play.google.com/store/apps/details?id=com.michaelviveros.BirdieStats&hl=en) | [Code](https://github.com/MichaelViveros/BirdieStats) | [Doc](https://github.com/MichaelViveros/BirdieStats/tree/master/doc)
 
 <p align="center"> 
-  <img src="../images/Screenshot.jpg" hspace="50" style="vertical-align: middle;">
+  <img src="../images/Screenshot2.png" hspace="50" style="vertical-align: middle;">
   <img src="../images/BirdieStats_Architecture.png" hspace="50" style="vertical-align: middle;">
 </p>
 
