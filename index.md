@@ -56,8 +56,8 @@ I have been playing the trumpet for over 8 years. As a member of the McMaster Ma
 
 <br>
 <p align="center">
-  <iframe src="http://www.youtube.com/embed/kTiLrF7Tfoc" width="420" height="355"></iframe>
-  <img src="../images/MMB.jpg" alt="Collage" width="470" height="355" hspace="50"></img>
+  <iframe src="http://www.youtube.com/embed/kTiLrF7Tfoc" width="354" height="300"></iframe>
+  <img src="../images/MMB.jpg" alt="Collage" width="40%" height="100%" hspace="50">
 </p>
 <br>
 
