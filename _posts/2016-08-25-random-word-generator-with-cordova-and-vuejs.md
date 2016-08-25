@@ -61,7 +61,7 @@ Check if you have the requirements for building/running Android apps through Cor
 cordova requirements
 ```
 
-If missing requirements, see the [Cordova Docs for Android](https://cordova.apache.org/docs/en/latest/guide/platforms/android/) and the Help section at the bottom of the tutorial.
+If missing requirements, see the [Cordova Docs for Android](https://cordova.apache.org/docs/en/latest/guide/platforms/android/) and the Help section at the bottom of the tutorial. This is definitely the hardest part of the tutorial. Just be patient and refer to the links mentioned. Once you get all the requirements working, the rest of the tutorial is a breeze.
 
 
 Build the app for Android:
