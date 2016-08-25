@@ -5,6 +5,8 @@ title:  Random Word Generator with Cordova and VueJs
 
 ## Random Word Generator with Cordova and VueJs
 
+[Code](https://github.com/MichaelViveros/Blog/tree/master/RandomWord)
+
 [Cordova](https://cordova.apache.org/) is a framework that lets you create mobile apps using web technologies like HTML, Javascript and CSS. This allows you to target multiple platforms like Android and iOS using one code base. Although you still need platform-specific technologies like the Android SDK and XCode to build an app, you can create apps without having to write any Android or iOS code.
 
 Since you can write code in HTML and Javascript, it's very easy to use front-end Javascript libraries like [VueJs](https://vuejs.org/) with Cordova.
@@ -314,7 +316,7 @@ To make the HTTP request to the random word API, we can use the [http service](h
     } 
 }; 
 
-app.setupVue();
+app.initialize();
 ```
 
 Build it, plug-in your phone and run it:
