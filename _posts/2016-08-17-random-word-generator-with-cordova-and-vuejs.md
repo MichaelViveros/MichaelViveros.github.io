@@ -261,12 +261,12 @@ The app should look like this:
 
 # Add HTTP Request
 
-Instead of picking a random word from a hard-coded list of words, the app can do a GET request to an API that generates random words like [http://randomword.setgetgo.com/get.php](http://randomword.setgetgo.com/get.php).
+Instead of picking a random word from a hard-coded list of words, the app can do a GET request to an API that generates random words like the [Wordnik Random Word API](http://developer.wordnik.com/docs.html#!/words/getRandomWord_get_4)
 
 To allow the app to make an http request to the random word API, add the following to the end of the CSP meta tag:
 
 ```
-; connect-src http://randomword.setgetgo.com/get.php
+; connect-src http://api.wordnik.com:80/v4/words.json/randomWord
 ```
 
 The `connect-src` part of the CSP meta tag defines which origins the app can make http requests to.
@@ -278,7 +278,7 @@ index.html will look like:
 ```
 <!DOCTYPE html>
 ...
-        <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; script-src 'self' http://cdn.jsdelivr.net/vue/1.0.16/vue.js https://cdn.jsdelivr.net/vue.resource/0.7.0/vue-resource.min.js 'unsafe-eval'; connect-src http://randomword.setgetgo.com/get.php">
+        <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; script-src 'self' http://cdn.jsdelivr.net/vue/1.0.16/vue.js https://cdn.jsdelivr.net/vue.resource/0.7.0/vue-resource.min.js 'unsafe-eval'; connect-src http://api.wordnik.com:80/v4/words.json/randomWord">
 ...
         <script src="http://cdn.jsdelivr.net/vue/1.0.16/vue.js"></script>
         <script src="https://cdn.jsdelivr.net/vue.resource/0.7.0/vue-resource.min.js"></script>
@@ -300,10 +300,11 @@ To make the HTTP request to the random word API, we can use the [http service](h
             },
             methods: {
                 getRandomWord: function() {
+                    this.randomWord = '...';
                     this.$http.get(
-                        'http://randomword.setgetgo.com/get.php'
+                        'http://api.wordnik.com:80/v4/words.json/randomWord?api_key=a2a73e7b926c924fad7001ca3111acd55af2ffabf50eb4ae5'
                     ).then(function (response) {
-                        this.randomWord = response.data;
+                        this.randomWord = response.data.word;
                     }, function (error) {
                         alert(error.data);
                     });
@@ -354,10 +355,11 @@ export default {
   },
   methods: {
     getRandomWord: function() {
+        this.randomWord = '...';
         this.$http.get(
-            'http://randomword.setgetgo.com/get.php'
+            'http://api.wordnik.com:80/v4/words.json/randomWord?api_key=a2a73e7b926c924fad7001ca3111acd55af2ffabf50eb4ae5'
         ).then(function (response) {
-            this.randomWord = response.data;
+            this.randomWord = response.data.word;
         }, function (error) {
             alert(error.data);
         });
