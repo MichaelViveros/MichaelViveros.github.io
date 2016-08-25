@@ -507,6 +507,9 @@ This tutorial went over:
 * Making HTTP Requests in a Cordova app by updating it's Content Security Policy  
 * Using Vue Components in a Cordova app by adding Hooks
 
+# About the Author
+My name is Michael Viveros and I am in my 5th year of studying Software Engineering. I am a passionate programmer, incredibly inconsistent golfer and sarcastically subtle joker. I am developing a golf stat-tracking website and mobile app using Cordova and VueJs. You can read more @ [michaelviveros.com](http://www.michaelviveros.com/).
+
 # Help
 
 #### Android
