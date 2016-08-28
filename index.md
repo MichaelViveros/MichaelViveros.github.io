@@ -7,16 +7,10 @@ title:  {{ site.name }}
 Hi, I'm Michael Viveros. I am a passionate programmer, incredibly inconsistent golfer and sarcastically subtle joker.
 
 <p align="center"> <img src="../images/Me.jpg" width="450" height="450"></p>
-<br>
 
 ## Blog
-<ul>
-  {% for post in site.posts %}
-    <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
-    </li>
-  {% endfor %}
-</ul>
+
+* [Building a Mobile App with Cordova and VueJs](https://coligo.io/building-a-mobile-app-with-cordova-vuejs/)
 
 ## Projects
 
